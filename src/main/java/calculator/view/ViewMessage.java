@@ -13,4 +13,9 @@ public enum ViewMessage {
     public String format(Object... args) {
         return String.format(message, args);
     }
+
+    @Override
+    public String toString() {
+        return message;
+    }
 }
